@@ -1,6 +1,8 @@
 # DQN Agent to play Chrome Dino Game
 
-A Deep Convolutional Network is used to get environment state from raw image data from Chrome Browser. An OpenAI gym environment had been modified to be able to connect with browser game and training notebook. From the predicted state variables, the agent explores the environment with epsilon-greedy policy. To increase sample efficiency and independently distribute the states for training, Experience Replay had also been used.
+- A Deep Convolutional Network built with **Tensorflow** is used to get environment state from raw image data from Chrome Browser, processed using **OpenCV**. 
+- An **OpenAI** gym environment had been modified to be able to connect with browser game and training notebook. From the predicted state variables, the agent explores the environment with epsilon-greedy policy. 
+- To increase sample efficiency and independently distribute the states for training, Experience Replay had also been used.
 
 ### Installation
 - Start by cloning the repository.
