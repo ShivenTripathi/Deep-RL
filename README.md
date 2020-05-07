@@ -4,6 +4,8 @@
 - An **OpenAI** gym environment had been modified to be able to connect with browser game and training notebook. From the predicted state variables, the agent explores the environment with epsilon-greedy policy. 
 - To increase sample efficiency and independently distribute the states for training, Experience Replay had also been used.
 
+### Demo
+![Agent Playing](Testing.gif)
 ### Installation
 - Start by cloning the repository.
 
